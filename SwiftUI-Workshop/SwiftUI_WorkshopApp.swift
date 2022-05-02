@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_WorkshopApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView(service: MockBookService())
         }
     }
 }
