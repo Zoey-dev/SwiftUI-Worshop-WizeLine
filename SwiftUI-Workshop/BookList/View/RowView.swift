@@ -20,8 +20,6 @@ struct RowView: View {
                     .fontWeight(.semibold)
             
             VStack(alignment: .leading) {
-                Text(book.title)
-                    .font(.headline)
                 Text("by " + book.author)
                     .font(.subheadline)
                     .foregroundColor(.gray)
